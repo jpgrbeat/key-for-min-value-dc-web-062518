@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
     if name_hash[current] < name_hash[lowest]
       lowest = current
     end
+    i += 1 
   end
   
   lowest
